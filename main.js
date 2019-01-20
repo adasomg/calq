@@ -128,10 +128,7 @@ function addOption(trigger,fn) {
   options[trigger]=fn;  
 }
 
-
-
 // credit https://stackoverflow.com/a/51099524
-// somewhat
 function countDigits (n) { 
   n = abs(n);
   if (n < 0.0000000001) return -10;
@@ -236,9 +233,7 @@ EXAMPLES
 
        calq 1.34 ETH to BTC
 
-       calq from 10BTC to  CNY           
-       
-`);
+       calq from 10BTC to  CNY`);
   process.exit(1);
 }
 
@@ -333,6 +328,5 @@ async function main (argv) {
 process.on('unhandledRejection', error => {
   logd('main.js unhandledRejection\n',error);
 });
-
 
 module.exports = main;

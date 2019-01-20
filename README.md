@@ -18,6 +18,7 @@ The upside is we __can easily perform many conversions__ without relying on too 
 With enough demand, it may change.
 
 # Installation
+Get [NodeJS and npm from here](https://nodejs.org/en/download/current/) and:
 ```console
 you@home:~$ npm install -g calq
 ```
