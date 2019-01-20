@@ -262,9 +262,9 @@ async function main (argv) {
 
   addOption("-v",opt=>{
     prefs.verbosity = opt.length-1;
-    prefs.INFO = prefs.verbosity > 1;
-    prefs.DEBUG = prefs.verbosity > 2;
-    prefs.PARANOID = prefs.verbosity > 3;
+    prefs.INFO = prefs.verbosity > 0;
+    prefs.DEBUG = prefs.verbosity > 1;
+    prefs.PARANOID = prefs.verbosity > 2;
   });
 
   
