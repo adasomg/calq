@@ -1,0 +1,30 @@
+{
+  "name": "calq",
+  "version": "0.1.0",
+  "description": "Convert between currencies with EASE! Crypto, fiat, and more!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "calq": "./calq"
+  },
+  "keywords": [
+    "crypto",
+    "ethereum",
+    "ETH",
+    "BTC",
+    "calculator",
+    "cli",
+    "commandline",
+    "node",
+    "nodejs"
+  ],
+  "author": "Adas",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mathjs": "^5.4.1",
+    "node-fetch": "^2.3.0"
+  }
+}
