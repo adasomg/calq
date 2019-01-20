@@ -332,7 +332,6 @@ async function main (argv) {
 
 process.on('unhandledRejection', error => {
   logd('main.js unhandledRejection\n',error);
-
 });
 
 
