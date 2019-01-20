@@ -251,9 +251,10 @@ var prefs = {
   precision: "auto",
 }
 
-var args = process.argv; // we're gonna mutate it A LOT
+var args; // we're gonna mutate it A LOT
 
-async function main () {
+async function main (argv) {
+  args = argv;
   args.shift();args.shift();
 
   if(args.length==0) help();
@@ -328,9 +329,11 @@ async function main () {
   
   process.exit(0);
 };
-main()
 
 process.on('unhandledRejection', error => {
   logd('main.js unhandledRejection\n',error);
 
 });
+
+
+module.exports = main;
