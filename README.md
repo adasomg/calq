@@ -3,11 +3,7 @@
 CalQ is a simple CLI command for quikcly converting currencies.  
 __As opposed to many others__, `calq`  __takes free-form text input__, think Google Search.
 
-```console
-you@home:~$ calq 4,700$ to ETH
-4700 $ = 39.16997 ETH
-```
-
+![calq-showcase](https://github.com/adasomg/calq/blob/master/showcase.gif)
 
 All the converting is based on dollar values.  
 For example: converting `ETH` to `RUB`, we'll first look up the dollar value for Ethereum and Rubles and use these to calculate.  
