@@ -1,6 +1,6 @@
 {
   "name": "calq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The simplest crypto calculator out there. Convert between currencies with ease! Crypto, fiat, and more!",
   "main": "main.js",
   "scripts": {
