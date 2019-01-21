@@ -1,6 +1,6 @@
 {
   "name": "calq",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Convert between currencies with EASE! Crypto, fiat, and more!",
   "main": "main.js",
   "scripts": {
@@ -20,6 +20,11 @@
     "node",
     "nodejs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adasomg/calq.git"
+  },
+  "homepage": "https://github.com/adasomg/calq#readme",
   "author": "Adas",
   "license": "MIT",
   "dependencies": {

@@ -211,7 +211,7 @@ IMPORTANT
        All conversions use USD prices for calculations.
 
 SYNOPSIS
-       ccalc [ OPTIONS ] QUANTITY-A QUANTITY-B
+       calq [ OPTIONS ] QUANTITY-A QUANTITY-B
 
        QUANTITY := [ <number> ] CURRENCY
 
