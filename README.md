@@ -1,5 +1,7 @@
 # CalQ - convert between currencies with ease! Crypto, fiat, equities and more...
 
+![](https://img.shields.io/npm/v/calq.svg)
+
 CalQ is a simple CLI command for quikcly converting currencies.  
 __As opposed to many others__, `calq`  __takes free-form text input__, think Google Search.
 
